@@ -2,7 +2,7 @@ const express = require('express')
 const fetch = require('node-fetch')
 const router = express.Router()
 
-const host= 'http://13.53.199.34:8000/'
+const host= 'http://13.53.199.34:8000/' //publicip : port on which to access
 
 router.get('/', (req, res)=>{
     res.render('index')
